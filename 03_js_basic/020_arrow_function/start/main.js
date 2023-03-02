@@ -3,3 +3,4 @@ function fn(number) {
 }
 
 // sample code
+// sample code 2
