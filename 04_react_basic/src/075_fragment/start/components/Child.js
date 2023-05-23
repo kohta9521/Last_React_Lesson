@@ -4,7 +4,7 @@ import React from "react";
 const Child = () => {
   return (
     // 画面に描画される際にはなかったものとみなされる
-    <React.Fragment>
+    <>
       <div className="component">
         <h3>Hello Component</h3>
       </div>
@@ -15,7 +15,7 @@ const Child = () => {
         suscipit dolor doloribus saepe, laboriosam architecto atque porro fuga
         inventore vero.
       </p>
-    </React.Fragment>
+    </>
   );
 };
 
