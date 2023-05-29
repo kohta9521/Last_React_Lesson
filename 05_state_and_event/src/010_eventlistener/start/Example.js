@@ -1,18 +1,18 @@
 const Example = () => {
-  const ClickHandler = () => {
-    alert("クリックされました");
+  const clickHandler = () => {
+    alert("クリックされました！");
   };
 
-  const ClickHandler2 = () => {
-    console.log("クリックされました");
+  const clickHandler2 = () => {
+    let i = 0;
+    i++;
+    console.log(`ボタンが${i}回クリックされました。`);
   };
-
   return (
     <>
-      <button onClick={ClickHandler}>クリックしてね</button>
-      <button onClick={ClickHandler2}>クリックしてね</button>
+      <button onClick={clickHandler}>クリックしてね！</button>
+      <button onClick={clickHandler2}>クリックしてね！</button>
     </>
   );
 };
-
 export default Example;
