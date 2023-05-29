@@ -5,9 +5,10 @@
 
 import "./Child.css";
 
-const Child = () => {
+// js の機能 分割代入
+const Child = ({ color = "green" }) => {
   return (
-    <div className="component">
+    <div className={`component ${color}`}>
       <h3>Hello Component</h3>
     </div>
   );
