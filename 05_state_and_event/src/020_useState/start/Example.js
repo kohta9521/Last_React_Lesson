@@ -7,6 +7,7 @@ const Example = () => {
       <input
         type="text"
         onChange={(e) => {
+          console.log(e.target.value);
           setVal(e.target.value);
         }}
       />
