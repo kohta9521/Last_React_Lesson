@@ -7,7 +7,9 @@ const Example = () => {
   // }
 
   // マップを使用した場合
-  const helloAnimals = animals.map((animal) => <li>hello, {animal}</li>);
+  const helloAnimals = animals.map((animal) => (
+    <li key={animal}>hello, {animal}</li>
+  ));
 
   // あまり使わない
   // for{const animal of animals} {
